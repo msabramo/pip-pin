@@ -9,4 +9,9 @@ if __name__ == '__main__':
     license="MIT",
     url="https://github.com/marksteve/pip-pin",
     py_modules=['pip_pin'],
+    entry_points=dict(
+      console_scripts=[
+        'pip_pin=pip_pin:__main__',
+      ],
+    ),
   )
