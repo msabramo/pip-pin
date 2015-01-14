@@ -16,9 +16,10 @@ pipsi install pip-pin
 pip_pin <source> [files...]
 ```
 
-`source` - Package list you want to get pinned version from.  You would want
+- `source` - Package list you want to get pinned version from.  You would want
 this to be the output of `pip freeze`. Use `-` for `stdin`.
-`files` - Requirement files you want to update with pinned versions.
+
+- `files` - Requirement files you want to update with pinned versions.
 
 ## License
 
