@@ -3,6 +3,7 @@ from setuptools import setup
 if __name__ == '__main__':
   setup(
     name="pip-pin",
+    description="Utility for pinning versions in your pip requirements files",
     version="0.0.1",
     author="Mark Steve Samson",
     author_email="hello@marksteve.com",
