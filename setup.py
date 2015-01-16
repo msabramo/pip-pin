@@ -4,7 +4,7 @@ if __name__ == '__main__':
   setup(
     name="pip-pin",
     description=(
-      "Updates your `requirements.txt` with currently installed"
+      "Updates your `requirements.txt` with currently installed "
       "versions of your packages."
     ),
     version="0.1.0",
